@@ -1,0 +1,67 @@
+button {
+   border-radius: 10px;
+   width: 100px;
+   height: 40px;
+   margin: 10px;
+   transition: .3s ease-in-out;
+}
+
+#green {
+   background-color: green;
+   color: white;
+
+}
+
+#red {
+   background-color: red;
+   color: white;
+
+}
+
+#blue {
+   background-color: blue;
+   color: white;
+   
+}
+
+#green:hover {
+   text-transform: uppercase;
+   transform: scale(1.25);
+   background: rgb(148, 226, 32);
+   color:rgb(0, 0, 0);
+   border-radius: 20px;
+}
+
+#red:hover {
+   text-transform: uppercase;
+   transform: scale(1.25);
+   background: rgb(255, 58, 58);
+   color:rgb(255, 255, 255);
+   border-radius: 20px;
+}
+
+#blue:hover {
+   text-transform: uppercase;
+   transform: scale(1.25);
+   background: rgb(30, 82, 255);
+   color:rgb(255, 255, 255);
+   border-radius: 20px;
+}
+
+#random:hover {
+   text-transform: uppercase;
+   transform: scale(1.25);
+   background-color: white;
+}
+h1 {
+   margin: 0 auto;
+   text-align: center;
+}
+.colors-container {
+   margin:20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 5px;
+}
