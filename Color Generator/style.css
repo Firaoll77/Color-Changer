@@ -9,19 +9,16 @@ button {
 #green {
    background-color: green;
    color: white;
-
 }
 
 #red {
    background-color: red;
    color: white;
-
 }
 
 #blue {
    background-color: blue;
-   color: white;
-   
+   color: white;  
 }
 
 #green:hover {
